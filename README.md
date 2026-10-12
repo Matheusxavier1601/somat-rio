@@ -1,4 +1,4 @@
-# somat-rio
+# somatorio
 
 namespace MAKE
 {
