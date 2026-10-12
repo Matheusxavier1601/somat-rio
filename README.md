@@ -1,2 +1,35 @@
 # somat-rio
-soma
+
+namespace MAKE
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1, num2, resultado;
+            num1 = Convert.ToInt16(textBox1.Text);
+            num2 = Convert.ToInt16(textBox2.Text);
+            resultado = num1 + num2;
+            label4.Text = Convert.ToString(resultado);
+
+
+
+        }
+    }
+}
+
